@@ -5,7 +5,7 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer as Summarizer
 
 if len(sys.argv) < 2:
-    print("/root/Python/book_scrapy/Chap01/t.txt")
+    print("参数不够,pycharm修改运行配置方可直接运行,vscode请在window在终端输入python demo_gensim.py test.txt  linux在终端输入python3 demo_gensim.py test.txt ")
     sys.exit(1)
 fname = sys.argv[1]
 

@@ -1,3 +1,5 @@
+Mryep所使用的编译环境为~/.conda/envs/test01
+
 Mastering Social Media Mining with Python
 =========================================
 
