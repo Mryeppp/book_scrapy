@@ -10,9 +10,9 @@ def run_proc(name) -> None:
 if __name__ == '__main__' :
     print ('father process %s ...' % os.getpid())
     for i in range(5):
-        p = Process(target = run_proc, args = (str(i),))
+        p = Process(target = run_proc, args = (str(i),))# 调用了子进程p = run_proc(str(i))
         print('Process will start')
-        p.start()
-    p.join()
+        p.start() # 启动进程
+    p.join() # 进程间的通信
     print ('Process end.')
-# 测试linux上传
+

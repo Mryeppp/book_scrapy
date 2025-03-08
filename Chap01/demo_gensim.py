@@ -5,7 +5,7 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer as Summarizer
 
 if len(sys.argv) < 2:
-    print("请提供一个文件名作为参数。")
+    print("/root/Python/book_scrapy/Chap01/t.txt")
     sys.exit(1)
 fname = sys.argv[1]
 
