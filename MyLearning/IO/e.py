@@ -15,4 +15,4 @@ if __name__ == '__main__' :
         p.start()
     p.join()
     print ('Process end.')
-# 测试
+# 测试linux上传
