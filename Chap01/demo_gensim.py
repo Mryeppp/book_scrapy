@@ -17,3 +17,4 @@ with open(fname, 'r') as f:
     summary = summarizer(parser.document, 5)  # 摘要句子数量为 5
     for i, sentence in enumerate(summary):
         print("%d) %s" % (i + 1, sentence))
+        #test
